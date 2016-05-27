@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Orthogonizer
+qgisMinimumVersion=2.0
+description=Orthogonalize selected object
+version=0.1
+author=Dkrav/GeoInfoCenter
+email=dkrav2006@yandex.ua
+
+about=Orthogonalize selected object
+
+tracker=https://github.com/Dkrav-UA/Orthogonalizer/issue
+repository=https://github.com/Dkrav-UA/Orthogonalizer
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=QGIS orthogonalize selection polygon vector
+
+homepage=https://github.com/Dkrav-UA/Orthogonalizer
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
